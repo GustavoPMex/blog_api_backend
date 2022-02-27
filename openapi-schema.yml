@@ -6,7 +6,10 @@ paths:
   /api/v1/users/:
     get:
       operationId: listUsers
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters: []
       responses:
         '200':
@@ -21,7 +24,10 @@ paths:
       - api
     post:
       operationId: createUser
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters: []
       requestBody:
         content:
@@ -46,7 +52,10 @@ paths:
   /api/v1/users/{id}/:
     get:
       operationId: retrieveUser
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -65,7 +74,10 @@ paths:
       - api
     put:
       operationId: updateUser
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -95,7 +107,10 @@ paths:
       - api
     patch:
       operationId: partialUpdateUser
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -125,7 +140,10 @@ paths:
       - api
     delete:
       operationId: destroyUser
-      description: ''
+      description: 'Users'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -141,7 +159,10 @@ paths:
   /api/v1/:
     get:
       operationId: listPosts
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters: []
       responses:
         '200':
@@ -156,7 +177,10 @@ paths:
       - api
     post:
       operationId: createPost
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters: []
       requestBody:
         content:
@@ -181,7 +205,10 @@ paths:
   /api/v1/{id}/:
     get:
       operationId: retrievePost
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -200,7 +227,10 @@ paths:
       - api
     put:
       operationId: updatePost
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -230,7 +260,10 @@ paths:
       - api
     patch:
       operationId: partialUpdatePost
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
@@ -260,7 +293,10 @@ paths:
       - api
     delete:
       operationId: destroyPost
-      description: ''
+      description: 'Posts'' serialization.
+
+
+        This is a description.'
       parameters:
       - name: id
         in: path
